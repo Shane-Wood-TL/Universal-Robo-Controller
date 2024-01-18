@@ -1,0 +1,226 @@
+{
+  "uuid": "a557bac5791a5fec2266f4142f502a4e",
+  "path": "Offline/RobotController",
+  "name": "RobotController",
+  "content": "",
+  "created_at": "2023-10-20 11:28:14",
+  "updated_at": "2023-12-30 22:51:55",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "dee46ee018a3f1685ed3097152e58538",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "fedc759fd9a94485be159d1d4f112ad7": 2,
+        "761d1c830b334ce791d2d3b97f4a0cb5": 1,
+        "3a8adf1c0e6147f78ef50f29629d153a": 1,
+        "905b18aef1ea41ef8ae3cd730609c3ea": 1,
+        "c2cd21ee5d664c048ab07ca21d596c4b": 5,
+        "3bba624f78d2497a9fd37c0f4fcb92ec": 3,
+        "46d2d47b7b2f43e7bbd8d652ec20fb60": 1,
+        "f754d9782e0044a1b7a7e33256ecf16b": 8,
+        "ef6cef34e1494c1bbf9c437b4c0f944f": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "2.54mm header1*9",
+          2,
+          "HDR-9X1/2.54",
+          "P1,P2",
+          {
+            "Supplier": "",
+            "Manufacturer": "WEINANS",
+            "Manufacturer Part": "1.27mmFemale header2*5",
+            "image": "//image.lceda.cn/szlcsc/C59983.jpg",
+            "Contributor": "LCSC",
+            "Supplier Part": "C59983",
+            "spiceSymbolName": "2.54mm header1*9",
+            "puuid": "fd352a3324c342e2a4910f78ed6d1247",
+            "uuid": "fedc759fd9a94485be159d1d4f112ad7"
+          }
+        ],
+        [
+          "KSH7079_220Ω",
+          8,
+          "KSH7079_220R",
+          "R14,R15,R16,R17,R18,R19,R20,R21",
+          {
+            "Power": "1/4W",
+            "Value": "220Ω",
+            "Tolerance": "±1%",
+            "EasyEDA": "E57439",
+            "Supplier Part": "E57439",
+            "Supplier": "EasyEDA",
+            "Manufacturer": "UniOhm",
+            "Manufacturer Part": "MFR0W4F2200A50",
+            "Contributor": "ksh7079",
+            "spiceSymbolName": "KSH7079_220Ω",
+            "puuid": "088c1794b72d41028d7d3e9067af7f23",
+            "uuid": "f754d9782e0044a1b7a7e33256ecf16b"
+          }
+        ],
+        [
+          "Migumaus Mega Shield",
+          1,
+          "ARDUINO_MEGA_R3_SHIELD_2",
+          "U1",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "None",
+            "Supplier Part": "undefined",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "spally",
+            "spiceSymbolName": "Migumaus Mega Shield",
+            "puuid": "8ee9b804cafe4a4c9dea84cfd9a14098",
+            "uuid": "3a8adf1c0e6147f78ef50f29629d153a"
+          }
+        ],
+        [
+          "NRF2401",
+          1,
+          "NRF24",
+          "U2",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "mandarkol",
+            "spiceSymbolName": "NRF2401",
+            "puuid": "9c71cfdea1fe470b872747dbd4019074",
+            "uuid": "761d1c830b334ce791d2d3b97f4a0cb5"
+          }
+        ],
+        [
+          "NO",
+          1,
+          "I2CLCD16X2_N",
+          "U3",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "clivep259",
+            "spiceSymbolName": "I2CLCD16X2_N",
+            "puuid": "0436258eb4f54c008f7c3bf0befe6db2",
+            "uuid": "905b18aef1ea41ef8ae3cd730609c3ea"
+          }
+        ],
+        [
+          "NO",
+          5,
+          "TOGGLE SWITCH SPDT RED 3 PIN ON-OFF-ON 3 SPDT SMALL AC 6A/125V 3A/250V",
+          "U4,U5,U6,U7,U8",
+          {
+            "sourceId": "ceKgMGAuL",
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "hanzfortun09",
+            "spiceSymbolName": "TOGGLESWITCH SPST_SWITCH-SPDT COPY",
+            "Manufacturer Part": "",
+            "puuid": "15071b6f0b0240a5b36fd6d48300c042",
+            "uuid": "c2cd21ee5d664c048ab07ca21d596c4b"
+          }
+        ],
+        [
+          "NO",
+          3,
+          "PUSHBUTTON",
+          "U9,U10,U11",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "Hi_world",
+            "spiceSymbolName": "PushButton wide",
+            "puuid": "cc66d0250fef4f919343aaf82d716f32",
+            "uuid": "3bba624f78d2497a9fd37c0f4fcb92ec"
+          }
+        ],
+        [
+          "NO",
+          1,
+          "788BS-20X20",
+          "U12",
+          {
+            "timeStamp": "1465403330",
+            "spiceSymbolName": "788BS datasheet",
+            "Manufacturer Part": "",
+            "puuid": "88b81c7fe05d48098038ef09c639d192",
+            "uuid": "46d2d47b7b2f43e7bbd8d652ec20fb60"
+          }
+        ],
+        [
+          "NO",
+          1,
+          "CAP_10-100UF",
+          "U13",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "ValuePro",
+            "Manufacturer Part": "10uF 25V 6.3*7",
+            "Supplier Part": "C43325",
+            "Contributor": "pyramidak",
+            "spiceSymbolName": "CAP 10-100uF",
+            "puuid": "4ea55127375948518f00c4c82b665b9b",
+            "uuid": "ef6cef34e1494c1bbf9c437b4c0f944f"
+          }
+        ]
+      ],
+      "updateTime": 1698332462,
+      "createTime": 1697815696,
+      "histories": [],
+      "created_at": "2023-10-20 11:28:16",
+      "updated_at": "2023-10-26 11:01:02"
+    },
+    {
+      "uuid": "24212347c99c2dd412da002cc20412e7",
+      "puuid": "a557bac5791a5fec2266f4142f502a4e",
+      "title": "PCB_RobotController",
+      "filename": "PCB_RobotController.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "fd352a3324c342e2a4910f78ed6d1247": 2,
+        "8ee9b804cafe4a4c9dea84cfd9a14098": 1,
+        "9c71cfdea1fe470b872747dbd4019074": 1,
+        "088c1794b72d41028d7d3e9067af7f23": 8,
+        "cc66d0250fef4f919343aaf82d716f32": 3,
+        "0436258eb4f54c008f7c3bf0befe6db2": 1,
+        "15071b6f0b0240a5b36fd6d48300c042": 5,
+        "4ea55127375948518f00c4c82b665b9b": 1,
+        "88b81c7fe05d48098038ef09c639d192": 1
+      },
+      "BOM": [],
+      "updateTime": 1703994715,
+      "createTime": 1697836241,
+      "histories": [],
+      "created_at": "2023-10-20 17:10:41",
+      "updated_at": "2023-12-30 22:51:55"
+    }
+  ],
+  "sort": [],
+  "title": "RobotController",
+  "foldername": "RobotController",
+  "schfilename": "RobotController.json",
+  "schfilemtime": 1698332462286
+}
